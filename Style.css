@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;
+}
+
+
+.main-user{
+    border: 1px solid ;
+    border-radius: 20px;
+    width:400px ;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    position: relative;
+    top: 50px;
+    background: linear-gradient(135deg,#00feba, #5b548a)
+    
+}
+.search-sec{
+    width: 375px;
+    height: 40px;
+    /* border: 1px solid; */
+    display: flex;
+    gap: 10px;
+    top: 50px;
+    justify-content: center;
+    position: absolute;
+}
+.search-sec input{
+    border-radius: 20px;
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    color: #555;
+    background-color: #ebfffc;
+    flex:1;
+    font-size: 18px;
+}
+ .search-icon{
+    font-size: 15px;
+    border: 1px solid ;
+    padding: 12px;
+    border-radius: 60%  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebfffc;
+    border: none;
+}
+.weather-img{
+    /* border: 1px solid; */
+    margin: 10px;
+    position: absolute;
+    align-items: center;
+    top:100px
+}
+.weather-img img{
+    margin: auto;
+    width: 150px;
+}
+.temp{
+    font-size: 50px;
+    color:#ebfffc;
+    font-weight: 500;
+}
+.weather{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 0px;
+   position: absolute;
+   top: 240px;
+}
+.city{
+    margin: 0;
+    font-size: 45px;
+    color:#ebfffc;
+    font-weight: 500;
+}
+.det{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* height: 300px; */
+    justify-content: space-between;
+    align-items: end;
+    position: absolute;
+    top: 400px;
+    flex: 2;
+}
+.col1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.col1 img{
+    padding:2px;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.col1 .data{
+    color: #ebfffc;
+    
+}
+.windSpeed{
+    font-size: 20px;
+    color: #ebfffc;
+}
+.humidity{
+    font-size: 20px;
+    color: #ebfffc;
+}
